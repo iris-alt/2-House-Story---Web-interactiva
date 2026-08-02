@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../css/cocina_css.css">
+<script src="../java/cocina_java.js" defer></script>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="cocina">
+    
+    <input id="cocinando_boton" type="image" src="../imagenes/cocinando_boton0000.png">
+    <div id="atras_1"></div>
+
+    </div>
+    
+    <div id="cocinando">
+    <canvas id="canva_cocinando" width="1560" height="695"></canvas>
+    <img src="../imagenes/leche0000.png" id="leche" draggable="true" ondragstart="arrastrar(event)">
+    <img src="../imagenes/huevo0000.png" id="huevo" draggable="true" ondragstart="arrastrar(event)">
+    <img src="../imagenes/azucar0000.png" id="azucar" draggable="true" ondragstart="arrastrar(event)">
+    <img src="../imagenes/galleta0000.png" id="galleta" draggable="true" ondragstart="arrastrar(event)">
+    <img src="../imagenes/mantequilla0000.png" id="mantequilla" draggable="true" ondragstart="arrastrar(event)">
+    <div id="bol" class="colocar" ondrop="soltar(event)" ondragover="permitir(event)"></div>
+    <div id="atras_2"></div>
+    </div>
+    
+    <canvas id="canva_transicion" width="962" height="600"></canvas>
+
+</body>
+</html>
