@@ -215,7 +215,7 @@ const puerta_habitacion= document.getElementById("puerta_habitación");
 boton(Gatera,"Gatera");
 function funcion_puerta_baño(){puerta(puerta_baño,"Salon_bano","introduccion",botones_principal,0,()=>{cambio_habitación(botones_baño,baño,"baño"); globo()})}
 funcion_puerta_baño()
-puerta(puerta_habitacion,"salon_baño","habitacion",botones_principal,2)
+puerta(puerta_habitacion,"Salon_bano","habitacion",botones_principal,2)
 
 //Botones_cocina
 const television = document.getElementById("televisión");
