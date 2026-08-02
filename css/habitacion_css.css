@@ -21,8 +21,8 @@ canvas{
 
 #nombre_canción{
   position:absolute;
-  top: 67.5%;            /* primer tercio de altura */
-  left: 29.5%;
+  top: 310px;           
+  left: 300px;
   font-size: 20px;
   white-space: pre-wrap;
   color:white;
