@@ -1,0 +1,112 @@
+body{
+    background-color: #b6cde8;
+    /*background-image: url("../imagenes/entrada0000.png");*/
+}
+
+body>div{
+    display:none;
+}
+
+canvas{
+    position: absolute;
+  display: block;
+  background-color: transparent;
+  border-radius: 0;
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+  top:0%;
+  left:0%;
+}
+
+#nombre_canción{
+  position:absolute;
+  top: 67.5%;            /* primer tercio de altura */
+  left: 29.5%;
+  font-size: 20px;
+  white-space: pre-wrap;
+  color:white;
+  transform: rotate(-10deg);
+  /*-webkit-text-stroke: 0.5px #3b4652;*/
+  
+}
+
+#atras_1, #atras_2,#atras_3, #atras_4{
+   position:absolute;
+   background-color: transparent;
+    left:0%;
+    top:0%;
+    width: 100px;
+    height: 100px;
+}
+
+#radio_boton{
+    position:absolute;
+    left:53.1%;
+    top:41.3%;
+}
+
+#carta_boton{
+    position:absolute;
+    left:94%;
+    top:68.5%;
+}
+
+#puerta_despacho{
+    position: absolute;
+    background-color: transparent;
+    width:12%;
+    height: 75%;
+    left:15%;
+    top:5%;
+}
+
+#posterior{
+    position: absolute;
+    background-color: transparent;
+    width:100px;
+    height: 100px;
+    left:45%;
+    top:58%;
+}
+
+#anterior{
+    position: absolute;
+    background-color: transparent;
+    width:100px;
+    height: 100px;
+    left:20%;
+    top:70%;
+}
+
+#play{
+    position: absolute;
+    background-color: transparent;
+    width:50px;
+    height: 50px;
+    left:35%;
+    top:75%;
+}
+
+p{
+    margin-top: 180px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 25px;
+    color: #7b6963;
+}
+li{
+    
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 25px;
+    color: #7b6963;
+}
+
+img{
+
+  float: right;
+  margin-left: 10px;
+  opacity:0.75;
+}
+

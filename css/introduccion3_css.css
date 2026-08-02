@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Pulang';
+    src: url('../fonts/Luckymoon\ Regular.ttf') format('truetype'); /* o .otf con format('opentype') */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: 'Pulang', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: black;
+  background-color:#b6cde8;
+  text-align: center;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*
+canvas{
+  display: block;
+  position:absolute;
+  background: transparent;
+  border-radius: 0;
+  margin-top: 0;
+  left:20%;
+  width: 80%;
+  height: 90%;
+  
+}*/
+
+
+#div_puerta{
+  background-color: transparent;
+  position: absolute;
+  width:12%;
+  height: 35%;
+  top:15%;
+  left:45%;
+  padding-top: 10%;
+
+}
+#canva_transicion{
+  background-color: transparent;
+  position:absolute;
+  top:0;
+  left:0;
+  width: 100vw; 
+  height: 100vh;
+}
+
+#canva_puerta{
+  width: 100vw;
+  height: 100vh;
+}

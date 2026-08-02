@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Pulang';
+    src: url('../fonts/Luckymoon\ Regular.ttf') format('truetype'); /* o .otf con format('opentype') */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: 'Pulang', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: black;
+  background-color:#b6cde8;
+  text-align: center;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#transicion{
+  /*background-color: rgb(255, 0, 0);*/
+  position:absolute;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin:0;
+  display: block;
+  background-color: transparent;
+}
+
+canvas{
+  display: block;
+  background-color: transparent;
+  /*background: green;*/
+  border-radius: 0;
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+
+
+#canva_globo{
+  position:absolute;
+  width: 80%;
+  height: 90%;
+  top:0%;         /* primer tercio de altura */
+  left: 5%; 
+}
+
+#texto_1{
+  position: absolute;
+  top: -10%;   
+  width: 80%;
+  height: 60%;
+  display:none;
+  padding:0;
+  margin:0;
+
+}
+
+#texto_1 p{
+  position:absolute;
+  top: 37%;            /* primer tercio de altura */
+  left: 35%;
+  font-size: 35px;
+  display: none;
+  white-space: pre-wrap;
+  color:#7a7472;
+  /*-webkit-text-stroke: 0.5px #3b4652;*/
+  
+}
+
+#canva_zapatillas {
+  display: none;
+}
+
+#introduccion{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+}
+
+
