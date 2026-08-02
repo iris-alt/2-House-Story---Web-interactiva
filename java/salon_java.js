@@ -167,7 +167,7 @@ function flecha (flecha){
         flecha_izq.style.display="none";
         botones_principal.style.display="none";
         botones_baño.style.display="block";
-        document.body.style.backgroundImage=`url('../imagenes/Salon_baño0000.png')`;
+        document.body.style.backgroundImage=`url('../imagenes/Salon_bano0000.png')`;
         salon-=1;
         break;
       }
@@ -213,7 +213,7 @@ const puerta_baño= document.getElementById("puerta_baño");
 const puerta_habitacion= document.getElementById("puerta_habitación");
 
 boton(Gatera,"Gatera");
-function funcion_puerta_baño(){puerta(puerta_baño,"salon_baño","introduccion",botones_principal,0,()=>{cambio_habitación(botones_baño,baño,"baño"); globo()})}
+function funcion_puerta_baño(){puerta(puerta_baño,"Salon_bano","introduccion",botones_principal,0,()=>{cambio_habitación(botones_baño,baño,"baño"); globo()})}
 funcion_puerta_baño()
 puerta(puerta_habitacion,"salon_baño","habitacion",botones_principal,2)
 
@@ -290,7 +290,7 @@ const baño = document.getElementById("baño");
 const atras_2 = document.getElementById("atrás_2");
 var i =0;
 
-atras_2.addEventListener("click",()=>{cambio_habitación(baño,botones_baño,"salon_baño",true,funcion_puerta_baño)})
+atras_2.addEventListener("click",()=>{cambio_habitación(baño,botones_baño,"Salon_bano",true,funcion_puerta_baño)})
 
 //globo baño
 const canva_globo = {
